@@ -1,0 +1,128 @@
+body{
+    display: grid;
+    flex-direction: column;
+    margin: auto;
+    grid-column: auto;
+}
+.header{
+    display: flex;
+    gap: 46px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.sub{
+    margin-top: 55px;
+    list-style: none;
+    justify-self:right;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans";
+}
+.contact1{
+    display: flex;
+    margin: 60px 0 0 60px;
+    /* flex-direction: row; */
+    font-family: Tilt Warp;
+    /* justify-content: center; */
+    align-items: center;
+}
+.contact{
+    display: grid;
+    justify-content: center;
+    width: 1145px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-self: center;
+    align-items: center;
+}
+
+.contact-item{
+    display: flex;
+
+    gap: 50px;
+}
+#wa,#facebook,#linkedin{
+    border-radius: 20px;
+    font-family: Plus Jakarta Sans;
+    display: flex;
+    height: 70px;
+    width: 253px;
+    background-color: gray;
+    /* flex-shrink: 0; */
+    align-items: center;
+    gap: 20px;
+}
+#linkedin:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    box-shadow: 9px 8px 0 1px aqua, 18px 16px 0 1px red;
+}
+#facebook:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    box-shadow: 9px 8px 0 1px aqua, 18px 16px 0 1px red;
+}
+#wa:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    box-shadow: 9px 8px 0 1px aqua, 18px 16px 0 1px red;
+}
+.email{
+    margin: 150px 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1145px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-self: center;
+    align-items: center;
+}
+.caption{
+    display: flex;
+    /* width: 600px; */
+}
+#input{
+    background-color: aqua;
+    border: none ;
+    border-radius: 20px 0 0 20px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 50px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+button:active{
+    background-color: black;
+}
+.colom{
+    display: flex;
+    width: 702px;
+    height: 30px;
+    /* background-color: grey; */
+}
+footer{
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    margin-top:60px ;
+}
+.main_bar{
+    display: flex;
+    gap: 30px;
+}
+.bar{
+    justify-self: right;
+    flex-direction: column;
+}
+
