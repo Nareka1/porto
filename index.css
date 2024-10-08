@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+
+}
+.background{
+    background: linear-gradient(180deg, #576CBC 20%, #A5D7E8 80%);
+    height: 509px;
+}
+.header{
+    display:flex;
+    gap: 46px;
+
+}
+.sub{
+    margin-top: 55px;
+    list-style: none;
+    justify-self:right;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans";   
+
+}
+a{
+     text-decoration: none;
+    color: inherit;
+}
+#icon{
+    display: block;
+    justify-content: space-between;
+    
+}
+.opening{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+}
+.work{
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: linear-gradient(90deg, #0E2954 10%, #2E8A99 80%);
+    font-family: "Tilt Warp";
+    height: 40px;
+    width: 290px;
+    border-radius: 10px;
+}
+.work2{
+    /* display: flex; */
+    font-family: "Plus Jakarta Sans";
+    font-size: 23px;
+    /* justify-self: center; */
+}
+.work3{
+    margin: 0 0 50px;
+    font-family: "Tilt Warp";
+    font-weight: 400;
+    font-size:50px ;
+}
+.select{
+    display: flex;
+    gap:290px;
+}
+.tombol,.tombol1{
+    display: flex;
+    height: 60px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-family: "Tilt Warp";
+    font-weight: 400;
+    border-radius: 10px;
+}
+.tombol:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #0E2954;
+}
+.tombol1:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #2E8A99;
+}
+.tombol{
+    background-color: #2E8A99;
+}
+.tombol1{
+    color: aliceblue;
+    background-color: #0E2954;
+}
+.sosial1{
+    width: 30%;
+    
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 5%; */
+}
+.akhir{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: darkcyan;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 500px;
+}
+.text1,.text{
+    font-size: 18px;
+    
+}
+footer{
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+}
+.main_bar{
+    display: flex;
+    gap: 30px;
+}
+.bar{
+    justify-self: right;
+    flex-direction: column;
+}
+.tentang,.text,.text1{
+    font-family: Plus Jakarta Sans;
+}
